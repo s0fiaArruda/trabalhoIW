@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=", initial-scale=1.0">
+    <title>cup's cupcakes</title>
+    <link rel="icon" href="/img/abaimg.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/tutorial.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="js/script.js"></script>
+<body>
+
+<div class="organizar"><!--Div para organizar os containers-->
+ 
+<div id="tutorial" class="container"><!-- Tutorial de como jogar-->
+    <center>
+        <h2 class="title">Cup's Store Simulator</h2>
+         <img src="/img/cup-tutorial.png" alt="varios cupcakes rosas enfileirados na horizontal"class="fotoTutorial">
+        <p class="textoTutorial">
+        Você trabalha em uma loja de cupckakes!<br> leia a descrição dos clientes e selecione 
+            a opção que mais se encaixa no pedido!Sua pontuação aumenta com a satisfação com o pedido
+        </p>
+        <h3>Pontuação</h3>
+        <img src="img/avaliacoes/0estrelas.png" alt="estrelas de pontuação" id="estrelas" class="fotoTutorial">
+        
+         <div class="cupcakes">
+            <button type="button" onclick="comecar()" class="botaoStart" id="Start">Start</button>
+        </div>
+
+    </center>
+    </div> 
+
+ <div class="game"><!--Div de onde realmente acontece o jogo-->
+    <div class="teladojogo"><!--area do jogo e de onde aparecem os cupckakes de opção-->
+        <div class="background-game" id="status"><!--fundo do jogo-->
+            <img src="/img/comecando.png" alt="" id="imagem">
+
+        </div>
+
+           
+        <div id="cupcakes" style="display: none">
+            <img src="img/cupcakes/cupcakes1.png" alt="" id="cups" class="cups">
+        </div>
+        
+       
+    </div>
+    
+   
+    
+    <div   class="botoes">
+        <form action="pontuar()">
+            <button type="button" onclick="ponto1()" class="botao">opção 1</button><br>
+            <button type="button" onclick="ponto2()" class="botao">opção 2</button><br>
+            <button type="button" onclick="ponto3()" class="botao">opção 3</button><br>
+            <button type="button" onclick="ponto4()" class="botao">opção 4</button><br>
+    
+            <button type="button" onclick="mudarcliente()" class="botaoMenor" >Próximo ></button>
+        
+        </form>
+    </div>
+     
+ </div><!--fechamento da div tela do jogo-->
+   
+</div><!--Final da div pra organizar os containers-->
+    
+
+</body>
+</html>

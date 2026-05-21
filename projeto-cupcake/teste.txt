@@ -1,0 +1,6 @@
+
+
+.textoTutorial{
+    font-style: oblique;
+    height: 90px;
+}
