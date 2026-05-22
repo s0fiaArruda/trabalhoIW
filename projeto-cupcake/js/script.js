@@ -191,7 +191,6 @@ function comecar(){
  document.getElementById('imagem').src= 'cliente1.png';
  var div = document.getElementById("cupcakes");
  div.style.display = "block";
- comecar = undefined
  comeco=!comeco
 }
 
