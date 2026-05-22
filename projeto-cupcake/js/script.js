@@ -188,7 +188,7 @@ var pontuacao=0;//para pontuação final total
 //iniciar o jogo
 
 function comecar(){
- document.getElementById('imagem').src= 'img/situacoestransparente/cliente1 (2).png';
+ document.getElementById('imagem').src= 'cliente1 (2).png';
  var div = document.getElementById("cupcakes");
  div.style.display = "block";
  comecar = undefined
@@ -226,7 +226,7 @@ function nota(){
 function mudarcliente(){
    
   if(proximo===1){
-      document.getElementById('imagem').src=cliente2-removebg-preview.png';
+      document.getElementById('imagem').src=img/situacoestransparente/cliente2-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes2.png';
       proximo = proximo+ 1
     }else if(proximo===2){
