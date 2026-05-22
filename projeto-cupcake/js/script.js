@@ -188,7 +188,7 @@ var pontuacao=0;//para pontuação final total
 //iniciar o jogo
 
 function comecar(){
- document.getElementById('imagem').src= '/img/situacoestransparente/cliente1 (2).png';
+ document.getElementById('imagem').src= 'img/situacoestransparente/cliente1 (2).png';
  var div = document.getElementById("cupcakes");
  div.style.display = "block";
  comecar = undefined
