@@ -31,21 +31,29 @@ var pontuacao=0;//para pontuação final total
         pontuacao=pontuacao+0
          caso2=!caso2
          caso3=!caso3
+        
+         proximo = proximo+ 1
         }
         else if(caso3===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente3-medio-removebg-preview.png';
          pontuacao=pontuacao+0.5
          caso3=!caso3
          caso4=!caso4
+        
+         proximo = proximo+ 1
         }else if(caso4===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente4-bom-removebg-preview.png';
          pontuacao=pontuacao+1
          caso4=!caso4
          caso5=!caso5  
+        
+         proximo = proximo+ 1
         }else if(caso5===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente5-bom-removebg-preview.png';
          pontuacao=pontuacao+1
          caso5=!caso5;
+        
+         proximo = proximo+ 1
         }else{
             console.log("erro");
         }
@@ -57,26 +65,36 @@ var pontuacao=0;//para pontuação final total
          pontuacao=pontuacao+0.5
          comeco= false 
          caso2=!caso2
+        
+         proximo = proximo+ 1
         }else if(caso2===true){
         document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-medio-removebg-preview.png';
          pontuacao=pontuacao+0.5
          caso2=!caso2
          caso3=!caso3
+        
+         proximo = proximo+ 1
         }
         else if(caso3===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente3-bom-removebg-preview.png';
          pontuacao=pontuacao+1
          caso3=!caso3
          caso4=!caso4
+        
+         proximo = proximo+ 1
         }else if(caso4===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente4-ruim-removebg-preview.png';
          pontuacao=pontuacao+0
          caso4=!caso4
          caso5=!caso5  
+        
+         proximo = proximo+ 1
         }else if(caso5===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente5-medio-removebg-preview.png';
          pontuacao=pontuacao+0.5
          caso5=!caso5;
+        
+         proximo = proximo+ 1
         }else{
             console.log("erro");
         }
@@ -88,26 +106,36 @@ var pontuacao=0;//para pontuação final total
         pontuacao=pontuacao+0.5
          comeco= false 
          caso2=!caso2
+        
+         proximo = proximo+ 1
         }else if(caso2===true){
         document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-bom-removebg-preview.png';
         pontuacao=pontuacao+1
          caso2=!caso2
          caso3=!caso3
+        
+         proximo = proximo+ 1
         }
         else if(caso3===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente3-ruim-removebg-preview.png';
          pontuacao=pontuacao+0
          caso3=!caso3
          caso4=!caso4
+        
+         proximo = proximo+ 1
         }else if(caso4===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente4-bom-removebg-preview.png';
          pontuacao=pontuacao+1
          caso4=!caso4
          caso5=!caso5  
+        
+         proximo = proximo+ 1
         }else if(caso5===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente5-ruim-removebg-preview.png';
          pontuacao=pontuacao+0
          caso5=!caso5;
+        
+         proximo = proximo+ 1
         }else{
             console.log("erro");
         }
@@ -119,26 +147,36 @@ var pontuacao=0;//para pontuação final total
         pontuacao=pontuacao+0
          comeco= false 
          caso2=!caso2
+        
+        proximo = proximo+ 1
         }else if(caso2===true){
         document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-bom-removebg-preview.png';
         pontuacao=pontuacao+1
          caso2=!caso2
          caso3=!caso3
+        
+        proximo = proximo+ 1
         }
         else if(caso3===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente3-bom-removebg-preview.png';
         pontuacao= pontuacao+1
          caso3=!caso3
          caso4=!caso4
+        
+         proximo = proximo+ 1
         }else if(caso4===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente4-medio-removebg-preview.png';
          pontuacao=pontuacao+0.5
          caso4=!caso4
-         caso5=!caso5  
+         caso5=!caso5
+        
+         proximo = proximo+ 1
         }else if(caso5===true){
          document.getElementById('imagem').src= 'img/situacoestransparente/cliente5-bom-removebg-preview.png';
         pontuacao= pontuacao+1
          caso5=!caso5;
+        
+         proximo = proximo+ 1
         }else{
             comeco();
         }
@@ -190,19 +228,15 @@ function mudarcliente(){
   if(proximo===1){
       document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes2.png';
-      proximo=proximo+1
     }else if(proximo===2){
       document.getElementById('imagem').src= 'img/situacoestransparente/cliente3-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes3.png';
-      proximo=proximo+1
     }else if(proximo===3){
       document.getElementById('imagem').src= 'img/situacoestransparente/cliente4-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes4.png';
-      proximo=proximo+1
     }else if(proximo===4){
       document.getElementById('imagem').src= 'img/situacoestransparente/cliente5-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes5.png';
-      proximo=proximo+1
     }else if(proximo===5){
       document.getElementById('imagem').src= '';
       document.getElementById('cups').src= '';
