@@ -23,15 +23,15 @@ var pontuacao=0;//para pontuação final total
          pontuacao=pontuacao+1
          comeco= false 
          caso2=!caso2
-
-         proximo = proximo+ 1
+         
+         proximo = proximo+ 1;
 
         }else if(caso2===true){
         document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-ruim-removebg-preview.png';
         pontuacao=pontuacao+0
          caso2=!caso2
          caso3=!caso3
-        
+         
          proximo = proximo+ 1
         }
         else if(caso3===true){
@@ -226,7 +226,7 @@ function nota(){
 function mudarcliente(){
    
   if(proximo===1){
-      document.getElementById('imagem').src= 'img/situacoestransparente/cliente2-removebg-preview.png';
+      document.getElementById('imagem').src= 'projeto-cupcake/img/situacoestransparente/cliente2-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes2.png';
       proximo = proximo+ 1
     }else if(proximo===2){
@@ -245,5 +245,17 @@ function mudarcliente(){
     }else{
       console.log("erro")
     }
-  }                                  
+  } 
+
+var finalround=null
+function desligarbotao(){
+    if(finalround===true){
+        return mudarcliente()
+    }else{
+        return ponto1() ||ponto2()||ponto3()||ponto4()
+        finalround= true;
+    }
+    
+}
+    
 
