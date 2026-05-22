@@ -24,7 +24,7 @@ body{
 }
 
 .background-game{
-    background-image:url(/img/fundoloja.jpg);
+    background-image:url(fundoloja.jpg);
      background-size: cover;
      width: 700px;
      height: 400px;
