@@ -226,7 +226,7 @@ function nota(){
 function mudarcliente(){
    
   if(proximo===1){
-      document.getElementById('imagem').src=img/situacoestransparente/cliente2-removebg-preview.png';
+      document.getElementById('imagem').src='img/situacoestransparente/cliente2-removebg-preview.png';
       document.getElementById('cups').src= 'img/cupcakes/cupcakes2.png';
       proximo = proximo+ 1
     }else if(proximo===2){
